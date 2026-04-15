@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <header class="headersection">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <div>
+          <input type="number" id="received-value" class="theInput" />
+        </div>
+        <button id="converterBtn" class="btn">Convert</button>
+      </header>
+      <section class="display-result">
+        <div class="display-row">
+          <h2 class="display-main-heading">Length (Meter/Feet)</h2>
+          <p id="meterFeet"></p>
+        </div>
+        <div class="display-row">
+          <h2 class="display-main-heading">Volume (Liters/Gallons)</h2>
+          <p id="literGallon"></p>
+        </div>
+        <div class="display-row">
+          <h2 class="display-main-heading">Mass (Kilograms/Pounds)</h2>
+          <p id="KiloPound"></p>
+        </div>
+      </section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
