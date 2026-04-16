@@ -16,7 +16,7 @@ body{
 }
 .main-div{
     max-width: 55rem;
-    height: 42.9rem;
+    height: 49.9rem;
     background-color: #1F2937;
     color: white;
     margin-left: auto;
@@ -86,5 +86,13 @@ font-size: 24px;
             max-width: 100%;
             height: 26rem;
             font-size: 20px;
+        }
+
+        .main-div {
+            height: 54rem ;
+        }
+        .display-row{
+            height: 12rem;
+            padding-top: 1.3rem;
         }
     }
