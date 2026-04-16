@@ -10,7 +10,9 @@ body{
     line-height: 1.6;
     max-width: 100%;
     overflow: hidden;
-    font-family: intel;
+      font-family: "Inter", sans-serif;
+
+
 }
 .main-div{
     max-width: 55rem;
